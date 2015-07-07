@@ -1,7 +1,7 @@
 {
   "name": "atom-theme-cfeclipse",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A light theme based on CFEclipse.",
   "repository": "https://github.com/dajester2013/atom-theme-cfeclipse",
   "license": "MIT",
