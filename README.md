@@ -1,4 +1,4 @@
-# atom-cfeclipse-theme-light theme
+# atom-theme-cfeclipse theme
 
 A short description of your theme.
 
