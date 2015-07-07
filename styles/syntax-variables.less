@@ -1,0 +1,46 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color:			@very-dark-gray;
+@syntax-cursor-color:		black;
+@syntax-selection-color:	@very-light-gray;
+@syntax-background-color:	white;
+
+// Guide colors
+@syntax-wrap-guide-color:			@dark-gray;
+@syntax-indent-guide-color:			@almost-not-gray;
+@syntax-invisible-character-color:	@almost-not-gray;
+
+// For find and replace markers
+@syntax-result-marker-color:			@light-gray;
+@syntax-result-marker-color-selected:	white;
+
+// Gutter colors
+@syntax-gutter-text-color:					@dark-gray;
+@syntax-gutter-text-color-selected:			@syntax-gutter-text-color;
+@syntax-gutter-background-color:			@almost-not-gray;
+@syntax-gutter-background-color-selected:	@very-light-gray;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed:	@blue;
+@syntax-color-added:	@green;
+@syntax-color-modified:	@orange;
+@syntax-color-removed:	@red;
+
+// cfml syntax colors
+@syntax-color-language-constant: 	blue;
+@syntax-color-string-quoted: 		blue;
+@syntax-color-tag: 					@cfe-brown;
+@syntax-color-scope: 				@syntax-color-tag;
+@syntax-color-component: 			@syntax-color-tag;
+@syntax-color-class: 				@syntax-color-tag;
+@syntax-color-modifier: 			@cfe-blue;
+
+@syntax-color-comment-block: 		@light-gray;
+@syntax-color-doccomment-block: 	black;
+
+@syntax-color-bg-comment-block: 	@cfe-yellow;
+@syntax-color-bg-comment-javadoc: 	@cfe-light-yellow;
