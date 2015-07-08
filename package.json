@@ -1,7 +1,7 @@
 {
   "name": "cfeclipse-light-syntax",
   "theme": "syntax",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A light theme based on CFEclipse.",
   "repository": "https://github.com/dajester2013/atom-cfeclipse-light-syntax",
   "license": "MIT",
