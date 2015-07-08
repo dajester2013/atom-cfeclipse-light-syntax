@@ -287,10 +287,13 @@ atom-text-editor .search-results .marker.current-result .region {
     color: @syntax-color-tag;//@cfe-brown;
     font-weight:bold;
     &.cfml {
-      color: @syntax-color-tag-cfml;
+        color: @syntax-color-tag-cfml;
     }
     &.script {
-      color: @syntax-color-tag-cfml;
+      color: @syntax-color-tag-cfml; // cfscript tags-as-script
+      &.html {
+        color: @syntax-color-tag; // script tag in html
+      }
     }
   }
 
